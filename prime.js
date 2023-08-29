@@ -2,7 +2,7 @@ let num = 56;
 
 let count = 0
 for (let i = 0; i <= num; i++){
-    if(num % i == 1){
+    if(num % i == 0){
         count++
     }
 }

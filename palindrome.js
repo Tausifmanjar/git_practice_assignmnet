@@ -1,10 +1,11 @@
-let num = "naman"
+let str = "naman"
 
 let bag = ""
-for(let i = num.length-1; i >= 0; i--){
-    if(num[i] == bag){
-        console.log("palindrome")
-    }else{
-        console.log("not plindrome")
-    }
+for(let i = str.length-1; i >= 0; i--){
+   bag=bag+ str[i]
+}
+if(str === bag) {
+    console.log("pallindrome")
+} else {
+    console.log("not pallindrom")
 }
